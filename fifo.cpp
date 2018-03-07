@@ -14,12 +14,7 @@ fifo_string::~fifo_string()
 	tmp = take_pointer;
 	take_pointer=take_pointer->n;
 	delete tmp;
-	//take_pointer->p=NULL;
 	}
-
-	//delete take_pointer;
-	//delete push_pointer;
-
 }
 
 fifo_string::_item::_item(const char* item)

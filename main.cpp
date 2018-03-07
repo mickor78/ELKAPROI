@@ -15,7 +15,6 @@ int main() {
         test_obj.push("PROI5");
         test_obj.push("PROI6");
 
-	//test_obj.get(2);
 	std::cout<<test_obj << std::endl << "Objekt nr:"<< 2 << "=" << test_obj.get(2) << std::endl;
 	return 0;
 }
